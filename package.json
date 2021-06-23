@@ -1,0 +1,9 @@
+{
+  "name": "TSTemplate",
+  "version": "0.1.0",
+  "description": "A Typescript Project Template",
+  "main": "js/index.js",
+  "author": "0J3 <0J3@wafflepowered.com>",
+  "license": "MIT",
+  "private": false
+}
