@@ -43,8 +43,12 @@
     "noFallthroughCasesInSwitch": true,
     // !SETTINGS
 
+    // SETTINGS React
+    "jsx": "react-native",                    // SETTING Do JSX
+    "jsxFactory": "h",
+    // !SETTINGS
+
     "diagnostics": false,                     // SETTING Log TS Diagnostics
-    "jsx": "react-jsx"                        // SETTING Do JSX
   }
   // !SECTION
 }
