@@ -1,9 +1,21 @@
 {
-  "name": "TSTemplate",
-  "version": "0.1.0",
+  "name": "tstemplate",
   "description": "A Typescript Project Template",
-  "main": "js/index.js",
+  "version": "0.1.0",
   "author": "0J3 <0J3@wafflepowered.com>",
   "license": "MIT",
+  "main": "js/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "yarn build && node .",
+    "dist": "echo \"Err: No Dist Script\" && exit 1",
+    "test": "echo \"Err: No Test Script\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.3.4",
+    "yarn": "^1.22.10"
+  },
   "private": false
 }
