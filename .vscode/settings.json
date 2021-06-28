@@ -104,7 +104,8 @@
       "tag": "CLASS",
       "iconColor": "#8950de",
       "highlightColor": "#8950de",
-      "scope": "file"
+      "scope": "workspace",
+      "behavior": "region"
     },
     {
       "tag": "DEFFINITION",
@@ -112,5 +113,5 @@
       "highlightColor": "#6600ff",
       "scope": "file"
     }
-  ],
+  ]
 }
