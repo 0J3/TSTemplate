@@ -19,6 +19,7 @@
     // !SETTINGS
 
     "module": "CommonJS",                     // SETTING Module Resolution - Recommended value: Depends on your use case
+    "target": "ES5",                          // SETTING Target - Recommended value: ES5|ES6
     "removeComments": true,                   // SETTING Remove Comments - Recommended value: true
     "resolveJsonModule": true,                // SETTING Resolve JSON - Recommended value: true
     // !SETTINGS
