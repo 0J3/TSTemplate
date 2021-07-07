@@ -10,12 +10,14 @@
     "watch": "tsc --watch",
     "start": "yarn build && node .",
     "dist": "echo \"Err: No Dist Script\" && exit 1",
-    "test": "echo \"Err: No Test Script\" && exit 1"
+    "test": "echo \"Err: No Test Script\" && exit 1",
+    "upgradeYarn": "yarn set version latest",
+    "upgradeTs": "yarn add typescript@latest",
+    "upgrade": "node upgrade.js"
   },
-  "dependencies": {},
   "devDependencies": {
-    "typescript": "^4.3.4",
-    "yarn": "^1.22.10"
-  },
-  "private": false
+    "std-pour": "^1.1.0",
+    "typescript": "latest",
+    "yarn": "latest"
+  }
 }
